@@ -1,0 +1,133 @@
+Interpretation for ONEMILEREG:
+
+Dependent variable X1, Independent variable x2,x3,x16
+
+Intercept is ~4.55 which is quite high indicating s strong baseline effect in x1. For each unit
+increase in x2  x1 is expected to increase by 0.055 units holding everything else
+constant, this variable is statistically significant with a p-value well below 0.01, indicating a
+strong positive relationship. Sadly we can not same the same thing about x3 and x16, both
+of these variables are statistically insignificant implying that the X3 and X16 does not
+reliably predict changes in x1. Now about how does our data fit our model  R^2 shows
+that approx. 71.14% of the variability can be explained by the regression, which is not bad.
+F statistic has a very low p-value meaning that this model has a significant predicttive
+capability, which is our goal.
+
+X2 the same result that we get from the fixed linear model, we have positive and
+statistically significant coefficients across all models indicating that higher life expectancy
+is associated with higher economic growth.
+
+X3 the same result as in the fixed variable model, from all of these regressions we can
+see that X3 is not significant in any of them, while we got close in 13 th regression with
+0.08(still above 0.05 threshold). Which is not completely consistent with economic theory,
+as it should say that the higher education enrollment should increase the economic
+growth, this could happen because we ran too few regression and it can be influenced by
+complex factors like quality of education and economic context.
+X16 This is an interesting one, we got some mixed results meaning that in some
+regressions like(index 8 and 11) we get statistically significant results meaning that growth
+rate of population has a negative relationship between population growth and GDP growth.
+Which is as crazy as it sounds in economic theory that we learned last year(Swan model)
+this suggests that country’s population grows faster than its economy, which could lead to
+lower GDP per capita. But in many regressions, we got that x16 is statistically insignificant,
+which could happen because of other factors (like population growth may have different
+effects at different stages of development depending on economic structure).
+X23 We got extremely high p values with number of years of open economy, which
+suggests that they are statistically insignificant, while the study found that it is positively
+correlated and statistically significant. This is probably because the sample size of only 2
+regressions is too little compared to the study. Completely different results than the study
+because in one of my regressions I got that it is positive and in the other that it is negative,
+while the results in the study were positive and statistically significant.(Mine failed to do so)
+X29  Very similar results to the X23 with very high p values indicating statistically
+insignificant results. Which again differs from the study. Study found that the results are
+significant while my failed to do so and the coefficient I get is a lot bigger than in the study.
+X31 Again high p values insignificant results, this is our first dummy variable. Which
+indicates that it is not statistically significant but we can see the coefficients are negative
+which makes sense that a country who has been at war will have lower GDP growth.
+Study found that the results are significant while mine failed to do so and my variables are
+a lot bigger.
+X32  We have low p values meaning that political rights have a statistically significant
+effect on GDP. But we have a negative relationship which is quite strange because we
+usually believe that having more political freedoms and democratic practices within a
+country would in fact boost the GDP growth. I believe that we must interpret this that while
+the expansion of political freedoms might initially pose challenges to the economic growth(
+if we want fair elections we have to invest a lot of money to making the elections free,
+which might take away money from other parts which would help to increase the gdp
+growth but in the long run having democratic leaders would in fact help the economy grow
+the best example would be USA- the oldest democracy) Study found the same results but
+my variable seems to have a higher impact on GDP.
+X33  We have very low p values indicating a statistically significant negative relationship
+between civil liberties and GDP growth. Again I believe that the explanation is similar to
+
+the political rights one, that increasing civil liberties may cause short-term economic
+adjustments, as societies navigate changes in social structures but in the long run it would
+work. Study found the same result but in my results the coefficients are a lot higher.
+X34 We have low p values indicating a positive and statistically significant relationship
+between absolute latitude and GDP growth, suggesting that countries located further from
+the equator might have a better climate for agricultural productivity, which could boost the
+economy. The study found the same results, but I found that the variable affects more of
+GDP and the study
+X38  High p values a non-significant negative relationship between the fraction of
+primary exports and GDP growth. In the study it found also negative relationship, but the
+study results were significant while mine were not.
+X39 Again interesting in all three regressions we get positive relationship but, not in all
+the rule of law was statistically significant. In one regression was that it is very statistically
+significant while one more was close to statistical significance (&gt;0.05) and the other got
+very high p values indicating statistical insignificance. The study found the same positive
+relationship, but I got a LOT higher values than in the study.
+X4 Very high p values meaning that the sub-Saharan Africa dummy is not statistically
+significant. But I get one positive coefficient and 2 negative ones while in the study it is
+strictly negative indicating that if a country is in Sub-Saharan Africa it is negatively
+correlated with GDP growth. (makes sense because of slavery, colonization and so on)
+X41  Very high p values meaning that Exchange rate distortions are not statistically
+significant. I get mixed results in the coefficients with one saying that it is a positive and
+with the other saying that it is negatively correlated with GDP growth. While in the study
+they found out that it was negatively correlated which makes sense.
+X42 Very high p values meaning that Equipment investment is not statistically
+significant. I get that it is negatively correlated with GDP growth while the study found out
+that it was positively correlated with GDP growth( investing into better physical capital
+usually enhances productivity leading to higher economic growth)
+X43 Very very high p values meaning that Non-Equipment investment is not statistically
+significant. I get that it is positevly correlated and the study found the same thing.(
+Investment in intangible assets like research skills and education also usually lead to
+increased economic growth)
+X5 Mixed results I found that in one of the regressions that it is statistically significant but
+in other that it is not, I also get that the coefficients are positive. Meaning that if a country is
+in Latin America, it should boost economic growth, which is not the case in the study and
+in real life as Latin America is still considered a third world region.
+X50  Mixed results in one I find that it is non-significant in other that it is in fact
+significant, I also get that it is positively tied to GDP growth which is not what they found in
+the study.
+
+X51  Low p values in both meaning statistically significant results. I found that if a
+proportion of people who adhere to Buddhism increase the economic growth decreases.
+(Negative relationship). Which again is not what the study found; they found a positive
+relationship.
+X52  High p values meaning statistically insignificant, and I found positive relationship
+while the study found negative relationship.
+X53  Mixed results but the average is that it is in fact statistically significant. Also, I found
+that it is a negative relationship meaning that a higher Confucian population is associated
+with lower GDP growth. In the study they found positive relationship
+X56 Mixed results, two found that it is not significant while on regression found that it is
+in fact significant. I also found quite big positive coefficients meaning a strong relationship.
+While the study found much smaller positive coefficients.
+X57  Again mixed results with religions :). I found that one of the regression is
+statistically significant while other is not. But in both cases I found that the coefficients are
+quite large and positive, while the study found much smaller positive values.
+X59  Again mixed results about fraction of GDP mining. In one I found non- significant p-
+value while in other I found significant p value. In both cases the relationship was positive
+and quite large meaning that larger share of GDP coming from mining might lead to higher
+economic growth rates. Which makes sense, just look at the middle east. The study also
+found positive relationship but the coefficients again are a lot smaller.
+X6  Black market premium I found that it is not significant in my results. I also found a
+negative relationship while the study did the same. It makes sense that if the black market
+premiums are higher could lead to lower confidence in economic policy so it can be
+associated with lower economic growth.
+X60  High p values indicating that it is not statistically significant. I found mixed results
+with one regression being a negative one and the other having positive relationship. So
+the effects are not clearly defined. But the study found positive relationship.
+X7  I took one extra variable just for fun to check what would I get and the results were
+the same with the study – statistically insignificant.
+
+To conclude while I failed to completely replicate the study and its findings, some variables
+aligned with economic theory and the study. It is important to mention that we failed to
+replicate the findings because we did not run a “million” regressions, so the sample size is
+a lot smaller compared to the study.
